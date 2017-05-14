@@ -1,0 +1,735 @@
+@charset "UTF-8";
+@import "common-variable.scss";
+/*marin*/
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt36 {
+  margin-top: 36px;
+}
+
+//中间横杠代表负数，不是间隔符
+.ml-50 {
+  margin-left: -50px;
+}
+
+.ml4 {
+  margin-left: 4px;
+}
+
+.ml8 {
+  margin-left: 8px;
+}
+
+.ml15 {
+  margin-left: 15px;
+}
+
+.ml18 {
+  margin-left: 18px;
+}
+
+.ml28 {
+  margin-left: 28px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.ml34 {
+  margin-left: 34px;
+}
+
+.ml40 {
+  margin-left: 40px;
+}
+
+.mr4 {
+  margin-right: 4px;
+}
+
+.mr6 {
+  margin-right: 6px;
+}
+
+.mr8 {
+  margin-right: 8px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.mr16 {
+  margin-right: 16px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
+.mr40 {
+  margin-right: 40px;
+}
+
+.mr50 {
+  margin-right: 50px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb11 {
+  margin-bottom: 11px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb26 {
+  margin-bottom: 26px;
+}
+
+.mb152 {
+  margin-bottom: 152px;
+}
+
+.mAuto {
+  margin: auto;
+}
+
+/*marin End*/
+/*padding*/
+
+.pd15 {
+  padding: 15px;
+}
+
+.pl17 {
+  padding-left: 17px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.pt15 {
+  padding-top: 15px;
+}
+
+.pb15 {
+  padding-bottom: 15px;
+}
+
+.pr13 {
+  padding-right: 13px;
+}
+
+/*padding End*/
+
+/*宽度width*/
+.w100per {
+  width: 100%;
+}
+
+.w20per {
+  width: 20%;
+}
+
+.w33per {
+  width: 33.33%;
+}
+
+.w40 {
+  width: 40px;
+}
+
+.w60 {
+  width: 60px;
+}
+
+.w64 {
+  width: 64px;
+}
+
+.w80 {
+  width: 80px;
+}
+
+.w90 {
+  width: 90px;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.w110 {
+  width: 110px;
+}
+
+.w120 {
+  width: 120px;
+}
+
+.w136 {
+  width: 136px;
+}
+
+.w140 {
+  width: 140px;
+}
+
+.w160 {
+  width: 160px;
+}
+
+.w175 {
+  width: 175px;
+}
+
+.w188 {
+  width: 188px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w220 {
+  width: 220px;
+}
+
+.w245 {
+  width: 245px;
+}
+
+.w280 {
+  width: 280px;
+}
+
+.w285 {
+  width: 285px;
+}
+
+.w300 {
+  width: 300px;
+}
+
+.w320 {
+  width: 320px;
+}
+
+.w400 {
+  width: 400px;
+}
+
+.w764 {
+  width: 764px;
+}
+
+/*宽度width End*/
+
+/*高度 height*/
+.h100per {
+  height: 100%;
+}
+
+.h20 {
+  height: 20px;
+}
+
+.h30 {
+  height: 30px;
+}
+
+.h38 {
+  height: 38px;
+}
+
+/*高度 height End*/
+
+/*行高 line-height*/
+
+.lh20 {
+  line-height: 20px;
+}
+
+.lh26 {
+  line-height: 26px;
+}
+
+.lh30 {
+  line-height: 30px;
+}
+
+.lh34 {
+  line-height: 34px;
+}
+
+.lh38 {
+  line-height: 38px;
+}
+
+/*行高 line-height End*/
+
+/* 省略号 */
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* 省略号 End */
+
+/*min-width*/
+//2个字
+.miw58 {
+  min-width: 58px;
+}
+
+//3个字
+.miw72 {
+  min-width: 72px;
+}
+
+//4个字
+.miw86 {
+  min-width: 86px;
+}
+
+//5个字
+.miw100 {
+  min-width: 100px;
+}
+
+//6个字
+.miw114 {
+  min-width: 114px;
+}
+
+//7个字
+.miw128 {
+  min-width: 128px;
+}
+
+/*min-width End*/
+
+/*max-width*/
+//2个字
+.mxw58 {
+  max-width: 58px;
+}
+
+//3个字
+.mxw72 {
+  max-width: 72px;
+}
+
+//4个字
+.mw86 {
+  max-width: 86px;
+}
+
+.mxw88 {
+  max-width: 88px;
+}
+
+//5个字
+.mxw100 {
+  max-width: 100px;
+}
+
+.mxw102 {
+  max-width: 72px;
+}
+
+//6个字
+.mxw114 {
+  max-width: 114px;
+}
+
+.mxw116 {
+  max-width: 116px;
+}
+
+.mxw130 {
+  max-width: 100px;
+}
+
+.mxw146 {
+  max-width: 146px;
+}
+
+//7个字
+.mxw128 {
+  max-width: 128px;
+}
+
+.mxw200 {
+  max-width: 200px;
+}
+
+/*max-width End*/
+
+/*背景色 background*/
+
+.bgf6f6f6 {
+  background: #f6f6f6;
+}
+
+/*背景色 background End*/
+
+/*字体大小*/
+.f12 {
+  font-size: 12px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+/*字体大小*/
+
+.mp-ipt-text {
+  border: 1px solid $mp-bd-color;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*验证*/
+.js-help-block {
+  padding-left: 5px;
+  color: #a94442;
+}
+
+.vdt-group-block .js-help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mp-red {
+  color: $mp-red;
+}
+
+.mp-opt-blue {
+  color: $mp-opt-blue;
+}
+
+.mp-opt-green {
+  color: $mp-opt-green;
+}
+
+/*验证End*/
+
+/*按钮*/
+.mp-resn-btn {
+  background: $btn-bg;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mp-flow .mp-resn-btn {
+  background: $btn-flowThemeColor-bg;
+}
+
+.mp-resn-btn:hover {
+  background: $mp-red-active;
+}
+
+.mp-flow .mp-resn-btn:hover {
+  background: $mp-flowThemeColor-active;
+}
+
+.mp-resn-btn1,
+.mp-resn-btn2 {
+  background: #fff;
+  color: $btn-bg;
+  cursor: pointer;
+  border: 1px solid $btn-bg;
+}
+
+.mp-flow .mp-resn-btn1,
+.mp-flow .mp-resn-btn2 {
+  color: $btn-flowThemeColor-bg;
+  border: 1px solid $btn-flowThemeColor-bg;
+}
+
+.mp-resn-btn1:hover {
+  color: $mp-red-active;
+  border: 1px solid $mp-red-active;
+}
+
+.mp-resn-btn2:hover {
+  color: #fff;
+  background: $mp-red;
+  border: none;
+}
+
+.mp-flow .mp-resn-btn1:hover {
+  color: $mp-flowThemeColor-active;
+  border: 1px solid $mp-flowThemeColor-active;
+}
+
+.mp-flow .mp-resn-btn2:hover {
+  background: $mp-flowThemeColor;
+}
+
+.mp-dgBtn-btm {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+}
+
+.mp-mid-btn-par {
+  text-align: center;
+}
+
+/*按钮 End*/
+
+/*修饰*/
+.require-mark:before {
+  content: '*';
+  display: inline;
+  color: $mp-red;
+  margin-right: 4px;
+}
+
+.mp-flow .require-mark:before {
+  content: '*';
+  display: inline;
+  color: $mp-flowThemeColor;
+  margin-right: 4px;
+}
+
+/*修饰 End*/
+
+/*多选框*/
+.mp-ckgp {
+  height: 38px;
+  line-height: 38px;
+}
+
+.mp-ck-par {
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.mp-ckicon-par {
+  position: relative;
+  display: inline-block;
+  height: 16px;
+}
+
+.mp-ck-par .iconfont {
+  height: 16px;
+  color: $mp-bd-color;
+  position: relative;
+  top: 2px;
+  font-weight: normal;
+}
+
+.mp-ck-par .mp-ck-checkedicon {
+  position: absolute;
+  left: 0;
+  display: none;
+}
+
+.mp-ckgp-ck {
+  vertical-align: middle;
+  margin-right: 6px;
+  position: absolute;
+  top: 1px;
+  left: -999999px;
+}
+
+/*多选框End*/
+
+/*单选框*/
+.mp-rdgp {
+  height: 38px;
+  line-height: 38px;
+}
+
+.mp-rd-par {
+  position: relative;
+  cursor: pointer;
+}
+
+.mp-rdicon-par {
+  position: relative;
+  display: inline-block;
+  height: 16px;
+}
+
+.mp-rdgp-rd {
+  vertical-align: middle;
+  margin-right: 6px;
+  position: absolute;
+  top: 1px;
+  left: -999999px;
+}
+
+.mp-rd-par .iconfont {
+  height: 16px;
+  color: $mp-bd-color;
+  position: relative;
+  top: 2px;
+  font-weight: normal;
+}
+
+.mp-rd-par .mp-ck-checkedicon {
+  position: absolute;
+  left: 0;
+  display: none;
+}
+
+.js-checked .mp-ck-checkedicon {
+  display: block;
+}
+
+/*单选框End*/
+
+/*表格里的按钮*/
+.grid-btn {
+  line-height: normal;
+  border-radius: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+  vert-align: middle;
+  white-space: nowrap;
+}
+
+.mp-cm-grid-opt .grid-btn {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.grid-btn-suc {
+  color: #fff;
+  border: 1px solid $btn-bg;
+  background: $btn-bg;
+}
+
+.mp-flow .grid-btn-suc {
+  border: 1px solid $btn-flowThemeColor-bg;
+  background: $btn-flowThemeColor-bg;
+}
+
+.grid-btn-suc:hover {
+  background: $btn-bg-active;
+}
+
+.mp-flow .grid-btn-suc:hover {
+  background: $btn-flowThemeColor-bg-active;
+}
+
+.grid-btn-primary {
+  color: #333;
+  border: 1px solid $mp-bd-color;
+  background: $btn-bg-primary;
+}
+
+.grid-btn-primary:hover {
+  background: $btn-bg-primary-active;
+  color: #000;
+}
+
+/*表格里的按钮 End*/
+
+/*表单*/
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.of-hide {
+  overflow: hidden;
+}
+
+/*表单End*/
+
+// 标签页
+.mp-tab-block {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+/*placeholder*/
+
+.ie-placeholder {
+  position: absolute;
+  color: #999;
+  cursor: text;
+}
+
+.ie-placeholder-par {
+  position: relative;
+  display: inline-block;
+}
+
+/*placeholder End*/
+
+/*弹出层详情*/
+.mp-dg-detail-val {
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+/*弹出层详情End*/
+
+/*图片*/
+
+.img100per {
+  width: 100%;
+  height: 100%;
+}
+
+/*图片End*/

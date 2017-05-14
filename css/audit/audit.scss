@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import "../app/common-variable.scss";
+
+.mp-audit-sch {
+  border-bottom: 1px solid $mp-bd-color;
+  position: relative;
+}
+
+.mp-audit-sch-btmLine {
+  width: 100%;
+  height: 1px;
+  background: $mp-bd-color;
+}
+
+.mp-audit-sch:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.mp-audit-sch-tab-par {
+  border-left: 1px solid $mp-bd-color;
+}
+
+.mp-audit-sch .mp-audit-sch-tab-par {
+  position: absolute;
+
+}
+
+.mp-audit-sch-tab-par:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.mp-audit-sch-tab-par li {
+  float: left;
+  border-top: 1px solid $mp-bd-color;
+  border-right: 1px solid $mp-bd-color;
+  border-bottom: 1px solid $mp-bd-color;
+  width: 80px;
+  height: 38px;
+  line-height: 38px;
+  background: #fbfaf8;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+}
+
+.mp-audit-sch-tab-par .active {
+  background: #fff;
+  border-bottom: 0;
+}
+
+.mp-audit-sch .mp-resn-sch-gp {
+  height: 32px;
+  line-height: 32px;
+}
+
+.act-audit-main .layui-layer-close,
+.mktUser-audit-main .layui-layer-close {
+  position: static;
+}
+
+.mp-actAudit-ta {
+  width: 400px;
+  height: 100px;
+}
+
+.act-audit-main .mp-form-name{
+  width: 86px;
+}
+
+.mktUser-audit-main .mp-form-name {
+  width: 90px;
+}
+.mp-mart90{
+  margin-top: -90px\0;
+  float:left;
+}
